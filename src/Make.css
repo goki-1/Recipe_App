@@ -1,0 +1,86 @@
+.make-form-container {
+    border: 3px solid #ccc;
+    border-radius: 1px;
+    background-color: #acaeaf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    /* max-width: 800px; */
+  }
+  
+  .make-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form-group h3{
+    margin: 0%;
+    
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  
+  .reset-button,
+  .save-button {
+    background-color: #51adee;
+    
+    color: #101010;
+    border-radius: 6px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .reset-button:hover,
+  .save-button:hover {
+  /* background-color: #3b8ad9; */
+  color: #fff;
+  border-color: #fff;
+}
+  
+  @media screen and (max-width: 600px) {
+    .form-group {
+      width: 90%;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      max-width: 100%;
+    }
+  }
+  
